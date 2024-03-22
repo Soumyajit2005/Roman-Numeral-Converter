@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(37, 4, 93);
+    color: aliceblue;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.container .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;;
+    width: 44%;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgb(112, 108, 154);
+}
+
+.container .second h2{
+    font-size: 1.4rem;
+    margin: 2vw;
+}
+
+.container .second #number{
+    margin: 0 2vw 2vw 2vw;
+    width: 90%;
+    font-size: 2.5rem;
+    border: 2px solid white;
+    background-color: rgb(5, 5, 54);
+    color: aliceblue;
+}
+
+.container .second button[type="submit"]{
+    margin: 0 2vw 2vw 2vw;
+    width: 90%;
+    height: 7vh;
+    font-size: 1.4rem;
+    background-color: yellow;
+}
+
+.container .third{
+    border: 2px solid white;;
+    width: 44%;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(112, 108, 154);
+}
