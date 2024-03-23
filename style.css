@@ -58,7 +58,7 @@ body{
     width: 90%;
     height: 7vh;
     font-size: 1.4rem;
-    background-color: yellow;
+    background-color: #ffed18;
 }
 
 .container .third{
@@ -68,4 +68,5 @@ body{
     font-size: 1.5rem;
     text-align: center;
     background-color: rgb(112, 108, 154);
+    display: none;
 }
