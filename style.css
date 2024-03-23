@@ -59,6 +59,7 @@ body{
     height: 7vh;
     font-size: 1.4rem;
     background-color: #ffed18;
+    cursor: pointer;
 }
 
 .container .third{
@@ -69,4 +70,10 @@ body{
     text-align: center;
     background-color: rgb(112, 108, 154);
     display: none;
+}
+
+.container footer{
+    position: absolute;
+    bottom: 0;
+    padding: 4rem;
 }
